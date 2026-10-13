@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.FolderGallery" parent="android:Theme.Material.Light.NoActionBar">
+    <!-- تم اصلی برنامه -->
+    <style name="Theme.PooshehNegar" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:colorPrimary">#1976D2</item>
         <item name="android:colorPrimaryDark">#0D47A1</item>
         <item name="android:colorAccent">#2196F3</item>
+    </style>
+
+    <!-- تم تمام‌صفحه برای نمایشگر عکس -->
+    <style name="Theme.PooshehNegar.FullScreen" parent="android:Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">#000000</item>
     </style>
 </resources>
