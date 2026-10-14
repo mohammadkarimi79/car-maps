@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- تم اصلی برنامه -->
-    <style name="Theme.PooshehNegar" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:colorPrimary">#1976D2</item>
-        <item name="android:colorPrimaryDark">#0D47A1</item>
-        <item name="android:colorAccent">#2196F3</item>
+    <!-- تم اصلی برنامه منطبق با تمام نسخه‌های اندروید -->
+    <style name="Theme.PooshehNegar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#1976D2</item>
+        <item name="colorPrimaryDark">#0D47A1</item>
+        <item name="colorAccent">#2196F3</item>
     </style>
 
-    <!-- تم تمام‌صفحه برای نمایشگر عکس -->
-    <style name="Theme.PooshehNegar.FullScreen" parent="android:Theme.Material.NoActionBar.Fullscreen">
+    <!-- تم نمایش تمام‌صفحه عکس -->
+    <style name="Theme.PooshehNegar.FullScreen" parent="Theme.MaterialComponents.NoActionBar">
         <item name="android:windowBackground">#000000</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 </resources>
